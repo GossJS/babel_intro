@@ -1,6 +1,6 @@
 const { parse } = require('@babel/parser');
-const { default: generate } = require('@babel/generator');
 const { default: traverse } = require('@babel/traverse');
+const { default: generate } = require('@babel/generator');
 
 const code = 'const n = 1';
 
