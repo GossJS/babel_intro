@@ -18,5 +18,5 @@ traverse(ast, {
 });
 
 // генерируем код обратно из ast
-const output = generate(ast, code);
-console.log(output.code); // 'const x = 1;'
+const { code } = generate(ast);
+console.log(code); // 'const x = 1;'
